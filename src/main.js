@@ -3,11 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import Vant from 'vant'
-import 'vant/lib/vant-css/index.css'
+import { Button, Row, Col, Swipe, SwipeItem, Lazyload} from 'vant'
 
-Vue.config.productionTip = false
-Vue.use(Vant)
+Vue.config.productionTip = false;
+Vue.use(Button).use(Row).use(Col).use(Swipe).use(SwipeItem).use(Lazyload);
 
 /* eslint-disable no-new */
 new Vue({
