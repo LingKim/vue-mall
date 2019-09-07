@@ -1,26 +1,7 @@
 <template>
-    <div>
-      <div class="search-bar">
-        <van-row>
-          <van-col span="3">
-            <img :src="locationIcon" alt="" width="100%" class="location-icon">
-          </van-col>
-          <van-col span="16">
-            <input type="text" class="search-input">
-          </van-col>
-          <van-col span="5">
-            <van-button size="mini" class="search-button">查找</van-button>
-          </van-col>
-        </van-row>
-      </div>
-      <div class="swipe-area">
-        <van-swipe :autoplay="3000">
-          <van-swipe-item v-for="(item,index) in bannerPicArray" :key="index">
-            <img v-lazy="item.imageUrl" alt="" width="100%">
-          </van-swipe-item>
-        </van-swipe>
-      </div>
-    </div>
+     <h1>
+       江湖人称李老板的jenkins构建
+     </h1>
 </template>
 
 <script>
