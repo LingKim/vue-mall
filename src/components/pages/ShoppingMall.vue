@@ -1,6 +1,6 @@
 <template>
      <h1>
-       江湖人称李老板的jenkins构建
+       jenkins构建项目成功
      </h1>
 </template>
 
