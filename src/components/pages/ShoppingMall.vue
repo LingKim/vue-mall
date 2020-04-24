@@ -1,6 +1,6 @@
 <template>
      <h1>
-       jenkins构建项目成功
+       jenkins还能运作吗
      </h1>
 </template>
 
