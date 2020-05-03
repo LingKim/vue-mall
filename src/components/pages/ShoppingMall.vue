@@ -1,6 +1,6 @@
 <template>
      <h1>
-       jenkins还能运作吗
+       jenkins还能运作吗,使用新的分支测试jenkins按照参数构建
      </h1>
 </template>
 
